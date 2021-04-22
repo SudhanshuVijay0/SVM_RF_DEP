@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 20 12:20:35 2021
-
-@author: deepak
-"""
-
 import streamlit as st 
 from PIL import Image
 import pickle
@@ -70,8 +63,8 @@ def main():
       result=predict_random(UserID, Gender,Age,EstimatedSalary)
       st.success('Random forest Model  has predicted {}'.format(result))  
     if st.button("About"):
-      st.header("Developed by Deepak Moud")
-      st.subheader("Head , Department of Computer Engineering")
+      st.header("Developed by Sudhanshu Vijay")
+      st.subheader("Student , Department of Computer Engineering")
     html_temp = """
     <div class="" style="background-color:orange;" >
     <div class="clearfix">           
